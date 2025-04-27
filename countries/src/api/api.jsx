@@ -1,6 +1,6 @@
 import axios from "axios"
 
-export const BACKENDPOINT="https://restcountries.com/"
+export const BACKENDPOINT="https://xcountries-backend.azurewebsites.net/all"  
 
 export default async function countriesData(){
     try{
